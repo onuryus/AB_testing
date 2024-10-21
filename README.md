@@ -8,7 +8,7 @@
 </table>
 
 
-# Languages, Libraries, Tools & Technologies that I used in this project
+### Languages, Libraries, Tools & Technologies that I used in this project
 
 <div style="display: flex; justify-content: center;">
     <img src="pic/stats3.png" alt="NetworkX Badge" style="width: 100px; height: auto; margin-right: 10px;" />
@@ -30,7 +30,7 @@ These types of questions have always been on the minds of companies. In this pro
 
 
 
-# OBJECTIVE
+## OBJECTIVE
 
 
 To check whether the advertisements are truly meaningful. 
@@ -43,7 +43,7 @@ Our hypotheses:
  
 Tests were conducted with p-values less than 0.05 considered statistically significant.
 
-# Exploratory Data Analysis
+## Exploratory Data Analysis
 
 <table>
   <tr>
@@ -74,8 +74,8 @@ Tests were conducted with p-values less than 0.05 considered statistically signi
 
 
 
-# Data Wrangling
-Removal of outliers
+## Data Wrangling
+### Removal of outliers
 
 
 <table>
@@ -98,14 +98,14 @@ Removal of outliers
 
 
 
-# Determination of Required Sample Size
+## Determination of Required Sample Size
 Using the Proportion Effect Size function, the expected effect size between PSA (0.10) and company advertisements (0.15) has been calculated. Then, using the NormalIndPower class, the required sample size to detect this effect at an 80% power and a 5% significance level has been determined. As a result of the calculations, a total sample size of 681 has been found to be necessary for the analysis.
 
 
-# Statistical Test
+## Statistical Test
 In light of the obtained data, the z-statistic and p-value were calculated using the proportions_ztest function to evaluate whether the advertisements were successful.​​​​​​​​​
 
-# Conclusion
+## Conclusion
 ​​
 ​ *  When analyzing advertisements between 10 AM and 5 PM, the null hypothesis (H0) is accepted, concluding that there is no significant difference.
 
