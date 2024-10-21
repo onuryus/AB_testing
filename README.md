@@ -8,7 +8,7 @@
 </table>
 
 
-​# Languages, Libraries, Tools & Technologies that I used in this project
+# Languages, Libraries, Tools & Technologies that I used in this project
 
 <div style="display: flex; justify-content: center;">
     <img src="pic/stats3.png" alt="NetworkX Badge" style="width: 100px; height: auto; margin-right: 10px;" />
