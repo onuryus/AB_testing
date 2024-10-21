@@ -36,30 +36,35 @@ These types of questions have always been on the minds of companies. In this pro
 To check whether the advertisements are truly meaningful. 
 If a reduction in advertisements is considered, comparing the high-cost prime time slot with other slots and evaluating its importance.
 
-
 Our hypotheses:
-       *H0: There is no significant difference between the effects of public service announcements (PSA) and company advertisements (ad).
-       *H1: There is a significant difference between the effects of public service announcements (PSA) and company advertisements (ad).
+*H0: There is no significant difference between the effects of public service announcements (PSA) and company advertisements (ad).
+*H1: There is a significant difference between the effects of public service announcements (PSA) and company advertisements (ad).
 
  
 Tests were conducted with p-values less than 0.05 considered statistically significant.
 
 # Exploratory Data Analysis
 
-Figure
-
+<img src="pic/df.png" alt="result" width="800" />
 
 * user id: User ID (unique) | * test group: If "ad" the person saw the advertisement, if "psa" they only saw the public service announcement|  * converted: If a person bought the product then True, else is False | * total ads: Amount of ads seen by person | * most ads day: Day that the person saw the biggest amount of ads | * most ads hour: Hour of day that the person saw the biggest amount of ads
 
 
-Figure
+<img src="pic/exp1.png" alt="result" width="800" />
 
 ​The situation is somewhat different during the hours. Particularly between 10 AM and 4 PM, there is a significant increase in the amount of advertisements, while we observe a plateau during prime time.
 
 # Data Wrangling
 Removal of outliers
 
-Figure 
+
+<table>
+  <tr>
+    <td><img src="pic/outlier1.png" alt="result" width="400" /></td>
+    <td><img src="pic/outlier2.png" alt="result" width="400" /></td>
+  </tr>
+</table>
+
 
 
 ​​​Above are the box plots of the data distribution before and after the removal of outliers. It is clearly noticeable that many outliers have been removed from the dataset
