@@ -45,7 +45,7 @@ Tests were conducted with p-values less than 0.05 considered statistically signi
 
 # Exploratory Data Analysis
 
-<img src="pic/df.png" alt="result" width="800" />
+<img src="pic/df.png" alt="result" width="500" />
 
 * user id: User ID (unique) | * test group: If "ad" the person saw the advertisement, if "psa" they only saw the public service announcement|  * converted: If a person bought the product then True, else is False | * total ads: Amount of ads seen by person | * most ads day: Day that the person saw the biggest amount of ads | * most ads hour: Hour of day that the person saw the biggest amount of ads
 
@@ -69,8 +69,12 @@ Removal of outliers
 
 ​​​Above are the box plots of the data distribution before and after the removal of outliers. It is clearly noticeable that many outliers have been removed from the dataset
 
-figure 
-
+<table>
+  <tr>
+    <td><img src="pic/sk1.png" alt="result" width="400" /></td>
+    <td><img src="pic/sk2.png" alt="result" width="400" /></td>
+  </tr>
+</table>
 
 ​​​​To make the data conform to a normal distribution, the square root transformation technique has been used. As seen, the data normalization process has achieved a nearly symmetric dataset (Skewness = 0.43, Type = Fairly Symmetrical (-0.5 to 0.5): Data distribution is close to symmetrical)
 
