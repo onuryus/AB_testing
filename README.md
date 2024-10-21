@@ -54,6 +54,32 @@ Tests were conducted with p-values less than 0.05 considered statistically signi
 
 ​The situation is somewhat different during the hours. Particularly between 10 AM and 4 PM, there is a significant increase in the amount of advertisements, while we observe a plateau during prime time.
 
+
+
+
+<table>
+  <tr>
+    <td>User ID (unique)</td>
+    <td rowspan="6"><img src="pic/df.png" alt="result" width="500" /></td>
+  </tr>
+  <tr>
+    <td>Test Group: If "ad", the person saw the advertisement, if "psa", they only saw the public service announcement</td>
+  </tr>
+  <tr>
+    <td>Converted: If a person bought the product then True, else is False</td>
+  </tr>
+  <tr>
+    <td>Total Ads: Amount of ads seen by person</td>
+  </tr>
+  <tr>
+    <td>Most Ads Day: Day that the person saw the biggest amount of ads</td>
+  </tr>
+  <tr>
+    <td>Most Ads Hour: Hour of day that the person saw the biggest amount of ads</td>
+  </tr>
+</table>
+
+
 # Data Wrangling
 Removal of outliers
 
