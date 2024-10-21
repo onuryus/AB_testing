@@ -45,22 +45,10 @@ Tests were conducted with p-values less than 0.05 considered statistically signi
 
 # Exploratory Data Analysis
 
-<img src="pic/df.png" alt="result" width="500" />
-
-* user id: User ID (unique) | * test group: If "ad" the person saw the advertisement, if "psa" they only saw the public service announcement|  * converted: If a person bought the product then True, else is False | * total ads: Amount of ads seen by person | * most ads day: Day that the person saw the biggest amount of ads | * most ads hour: Hour of day that the person saw the biggest amount of ads
-
-
-<img src="pic/exp1.png" alt="result" width="800" />
-
-​The situation is somewhat different during the hours. Particularly between 10 AM and 4 PM, there is a significant increase in the amount of advertisements, while we observe a plateau during prime time.
-
-
-
-
 <table>
   <tr>
-    <td>User ID (unique)</td>
-    <td rowspan="6"><img src="pic/df.png" alt="result" width="500" /></td>
+    <td>user id: User ID (unique)</td>
+    <td rowspan="6"><img src="pic/df.png" alt="result" width="700" /></td>
   </tr>
   <tr>
     <td>Test Group: If "ad", the person saw the advertisement, if "psa", they only saw the public service announcement</td>
@@ -80,6 +68,12 @@ Tests were conducted with p-values less than 0.05 considered statistically signi
 </table>
 
 
+<img src="pic/exp1.png" alt="result" width="800" />
+
+​The situation is somewhat different during the hours. Particularly between 10 AM and 4 PM, there is a significant increase in the amount of advertisements, while we observe a plateau during prime time.
+
+
+
 # Data Wrangling
 Removal of outliers
 
@@ -90,8 +84,6 @@ Removal of outliers
     <td><img src="pic/outlier2.png" alt="result" width="400" /></td>
   </tr>
 </table>
-
-
 
 ​​​Above are the box plots of the data distribution before and after the removal of outliers. It is clearly noticeable that many outliers have been removed from the dataset
 
@@ -111,7 +103,7 @@ Using the Proportion Effect Size function, the expected effect size between PSA 
 
 
 # Statistical Test
-      In light of the obtained data, the z-statistic and p-value were calculated using the proportions_ztest function to evaluate whether the advertisements were successful.​​​​​​​​​
+In light of the obtained data, the z-statistic and p-value were calculated using the proportions_ztest function to evaluate whether the advertisements were successful.​​​​​​​​​
 
 # Conclusion
 ​​
