@@ -67,39 +67,25 @@ Figure
 figure 
 
 
-​​​​       To make the data conform to a normal distribution, the square root transformation technique has been used. As seen, the data normalization process has achieved a nearly symmetric dataset (Skewness = 0.43, Type = Fairly Symmetrical (-0.5 to 0.5): Data distribution is close to symmetrical)
+​​​​To make the data conform to a normal distribution, the square root transformation technique has been used. As seen, the data normalization process has achieved a nearly symmetric dataset (Skewness = 0.43, Type = Fairly Symmetrical (-0.5 to 0.5): Data distribution is close to symmetrical)
 
 
 
-Determination of Required Sample Size
-
-​
-
-       Using the Proportion Effect Size function, the expected effect size between PSA (0.10) and company advertisements (0.15) has been calculated. Then, using the NormalIndPower class, the required sample size to detect this effect at an 80% power and a 5% significance level has been determined. As a result of the calculations, a total sample size of 681 has been found to be necessary for the analysis.
+# Determination of Required Sample Size
+Using the Proportion Effect Size function, the expected effect size between PSA (0.10) and company advertisements (0.15) has been calculated. Then, using the NormalIndPower class, the required sample size to detect this effect at an 80% power and a 5% significance level has been determined. As a result of the calculations, a total sample size of 681 has been found to be necessary for the analysis.
 
 
-
-Statistical Test
+# Statistical Test
       In light of the obtained data, the z-statistic and p-value were calculated using the proportions_ztest function to evaluate whether the advertisements were successful.​​​​​​​​​
 
-
-
-
-
-Conclusion
+# Conclusion
 ​​
-
- 
-
 ​ *  When analyzing advertisements between 10 AM and 5 PM, the null hypothesis (H0) is accepted, concluding that there is no significant difference.
 
  *   When examining the time data between 8 PM and 11 PM (prime time), a high level of significance (0.004) indicates that advertisements create significant changes with high accuracy, leading to the acceptance of the alternative hypothesis (H1).
-
- 
-
+ *   
 Considering these findings, especially when the company is looking to save costs, it can be observed that there is potential for savings from advertisements aired between 10 AM and 5 PM.
 
-Figure
 
 
 <img src="pic/result.png" alt="result" width="800" />
